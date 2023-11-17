@@ -1,7 +1,6 @@
 import React from "react";
-import chefScript from "../assets/chefScript.png";
+import chefScript from "../assets/chefscript.png";
 import cocineroScript from "../assets/cocineroScript.png";
-import cocineroScript2 from "../assets/cocineroScript2.png";
 import barScript from "../assets/barScriptLogo.png";
 import { Link } from "react-router-dom";
 
