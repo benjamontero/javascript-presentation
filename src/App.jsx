@@ -18,7 +18,7 @@ function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/scope" element={<Scope/>}/>
         <Route path="/hoisting" element={<Hoisting/>}/>
-        <Route path="/barscope" element={<BarScope/>}/>
+        <Route path="/barscope/:ambitoSelected" element={<BarScope/>}/>
 
       </Routes>
         
