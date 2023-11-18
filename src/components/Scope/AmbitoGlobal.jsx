@@ -20,7 +20,8 @@ export const AmbitoGlobal = () => {
               {`// Variables globales que representan los ingredientes para hacer pizza de muzzarella
 const masa = "masa";
 const salsaDeTomate = "salsa de tomate";
-const quesoMuzzarella = "queso muzzarella";`}
+const quesoMuzzarella = "queso muzzarella";
+`}
             </code>
           </pre>
         </div>
