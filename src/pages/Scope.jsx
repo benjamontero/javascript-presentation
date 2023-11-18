@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+
 import globalVariable from "../assets/globalVariable.png";
 import localVariable from "../assets/localVariable.png";
 import bloquevariable from "../assets/bloquevariable.png";
+import anidamientoVariable from "../assets/anidamientoVariable.png"
 
 export const Scope = () => {
   return (
@@ -48,6 +50,8 @@ export const Scope = () => {
         <Link to="/barscope/local">Go to BarScript</Link>
       </button>
 
+      {/* Ambito de bloque */}
+
       <div className="card-definition">
         <h3>Ámbito de Bloque</h3>
         <p>
@@ -63,7 +67,23 @@ export const Scope = () => {
       <button>
         <Link to="/barscope/bloque">Go to BarScript</Link>
       </button>
+
+      {/* Anidamiento de ambitos */}
+
+      <div className="card-definition">
+        <h3>Anidamiento de Ámbitos</h3>
+        <p>
+          Las funciones pueden estar anidadas, y cada función tiene su propio
+          ámbito, lo que permite el acceso a variables de ámbitos superiores.
+        </p>
+      </div>
+      <h4>Codigo de ejemplo</h4>
+      <div className="card-explication">
+        <img src={anidamientoVariable} />
+      </div>
+      <button>
+        <Link to="/barscope/bloque">Go to BarScript</Link>
+      </button>
     </div>
-    
   );
 };
