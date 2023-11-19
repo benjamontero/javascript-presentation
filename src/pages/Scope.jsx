@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import globalVariable from "../assets/globalVariable.png";
 import localVariable from "../assets/localVariable.png";
-import bloquevariable from "../assets/bloquevariable.png";
+import bloquevariable from "../assets/bloqueVariable.png";
 import anidamientoVariable from "../assets/anidamientoVariable.png"
 
 export const Scope = () => {
