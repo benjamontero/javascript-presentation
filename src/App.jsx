@@ -5,6 +5,8 @@ import { Scope } from "./pages/Scope";
 import { Hoisting } from "./pages/Hoisting";
 import { Navbar } from "./components/Navbar";
 import { BarScope } from "./pages/BarScope";
+import { Closures } from "./pages/Closures";
+import { BarClosure } from "./components/BarScript/BarClosure";
 
 
 
@@ -18,8 +20,9 @@ function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/scope" element={<Scope/>}/>
         <Route path="/hoisting" element={<Hoisting/>}/>
+        <Route path="/closures" element={<Closures/>}/>
         <Route path="/barscope/:ambitoSelected" element={<BarScope/>}/>
-
+        <Route path="/barclosure" element={<BarClosure/>}/>
       </Routes>
         
       </BrowserRouter>
