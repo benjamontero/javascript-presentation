@@ -82,7 +82,7 @@ export const Scope = () => {
         <img src={anidamientoVariable} />
       </div>
       <button>
-        <Link to="/barscope/bloque">Go to BarScript</Link>
+        <Link to="/barscope/anidado">Go to BarScript</Link>
       </button>
     </div>
   );
