@@ -7,6 +7,7 @@ import { Navbar } from "./components/Navbar";
 import { BarScope } from "./pages/BarScope";
 import { Closures } from "./pages/Closures";
 import { BarClosure } from "./components/BarScript/BarClosure";
+import { Footer } from "./components/Footer";
 
 
 
@@ -24,8 +25,9 @@ function App() {
         <Route path="/barscope/:ambitoSelected" element={<BarScope/>}/>
         <Route path="/barclosure" element={<BarClosure/>}/>
       </Routes>
-        
       </BrowserRouter>
+      <Footer/>
+
     </>
   );
 }
