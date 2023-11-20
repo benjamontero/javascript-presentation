@@ -16,7 +16,7 @@ export const Home = () => {
   <div className="card">
     <button><Link to="/scope">Scope</Link></button>
     <button><Link to="/hoisting">Hoisting</Link></button>
-    <button><Link to="/closures">Clousure</Link></button>
+    <button><Link to="/closures">Closure</Link></button>
 
   </div>
   <p className="read-the-docs">
