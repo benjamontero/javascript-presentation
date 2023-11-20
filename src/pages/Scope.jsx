@@ -84,6 +84,9 @@ export const Scope = () => {
       <button>
         <Link to="/barscope/anidado">Go to BarScript</Link>
       </button>
+      <button>
+        <Link to="/">Volver a Home</Link>
+      </button>
     </div>
   );
 };

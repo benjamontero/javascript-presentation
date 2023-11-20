@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Hoisting = () => {
   return (
@@ -36,6 +37,12 @@ export const Hoisting = () => {
         inicializadas con un valor hasta que se alcanza su declaración en el
         código.
       </p>
+      <button>
+      <Link to="/scope">Go to BarScript</Link>
+      </button>
+      <button>
+        <Link to="/">Volver a Home</Link>
+      </button>
     </div>
   );
 };
