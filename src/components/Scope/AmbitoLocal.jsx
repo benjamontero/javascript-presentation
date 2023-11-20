@@ -55,7 +55,7 @@ hacerPizzaMuzzarellaEspecial();`}
       </div>
 
       <button>
-        <Link to="/">Volver a Home</Link>
+        <Link to="/scope">Volver a Scope</Link>
       </button>
 
     </>

@@ -35,6 +35,10 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+h1 span {
+  color: rgb(216, 216, 78);
+}
+
 
 button {
   margin: 10px;
@@ -55,6 +59,9 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+button span {
+  color: yellow;
 }
 
 @media (prefers-color-scheme: light) {

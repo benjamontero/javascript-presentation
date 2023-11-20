@@ -17,7 +17,8 @@ export const AmbitoBloque = () => {
         <div className="code-ejemplo">
           <pre>
             <code>
-              {`// Seguiremos con nuestras variables Globales. Pero ahora incorporaremos una nueva, una variable que indique que pizza solicito el cliente
+              {`// Seguiremos con nuestras variables Globales. 
+Pero ahora incorporaremos una nueva, una variable que indique que pizza solicito el cliente
 let pedidoCliente = "";
 const masa = "masa";
 const salsaDeTomate = "salsa de tomate";
@@ -58,7 +59,7 @@ hacerPizzaMuzzarella();`}
       </div>
 
       <button>
-        <Link to="/">Volver a Home</Link>
+      <Link to="/scope">Volver a Scope</Link>
       </button>
     </>
   );

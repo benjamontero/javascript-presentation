@@ -10,17 +10,17 @@ export const Home = () => {
     </Link>
    
   </div>
-  <h1>SCOPE + HOISTING + CLOUSURE </h1>
+  <h1>SCOPE <span>+</span> HOISTING <span>+</span> CLOUSURE </h1>
   <h2>Bienvenidos a BarScript</h2>
   
   <div className="card">
-    <button><Link to="/scope">Scope</Link></button>
-    <button><Link to="/hoisting">Hoisting</Link></button>
-    <button><Link to="/closures">Closure</Link></button>
+    <button><Link to="/scope"><span>S</span>cope</Link></button>
+    <button><Link to="/hoisting"><span>H</span>oisting</Link></button>
+    <button><Link to="/closures"><span>C</span>losure</Link></button>
 
   </div>
   <p className="read-the-docs">
-    App solo para exposicion - esta lleno de malas practicas - Perdoname Alan
+    App solo para exposicion - esta lleno de malas practicas - Perdonanos Alan
   </p>
   </>
   )

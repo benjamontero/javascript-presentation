@@ -14,12 +14,14 @@ export const AmbitoAnidado = () => {
           <pre>
             <code>
               {
-                `//En primer lugar crearemos una funcion que en este caso decidimos llamar 'Exterior' y dentro simplemente guardamos una constante.
+                `//En primer lugar crearemos una funcion que en este caso decidimos llamar 'Exterior' y 
+dentro simplemente guardamos una constante.
 
 function Exterior() {
   const x = 10;
 
-//Luego de crear esta constante, dentro de la misma funcion creamos otra funcion, en este caso 'Interior'.
+//Luego de crear esta constante, dentro de la misma funcion creamos otra funcion, 
+en este caso 'Interior'.
 
 function Interior() {
   const y = 5;
@@ -39,7 +41,8 @@ return (
 
 export default Exterior;
 
-// De esta manera se puede llamar a la funcion Exterior y a traves de ella acceder a la siguiente funcion Interior junto con sus atributos y valores.` 
+// De esta manera se puede llamar a la funcion Exterior y a traves de ella acceder a la siguiente 
+funcion Interior junto con sus atributos y valores.` 
               }
             </code>            
           </pre>
@@ -53,6 +56,9 @@ export default Exterior;
           En este ejemplo se demuestra como las funciones pueden estar anidadas entre si, esto es util para controlar la visibilidad y el acceso a variables en diferentes niveles de anidamiento.
         </p>
       </div>
+      <button>
+      <Link to="/scope">Volver a Scope</Link>
+      </button>
       <button>
         <Link to="/">Volver a Home</Link>
       </button>
