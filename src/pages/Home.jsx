@@ -10,7 +10,7 @@ export const Home = () => {
     </Link>
    
   </div>
-  <h1>SCOPE <span>+</span> HOISTING <span>+</span> CLOUSURE </h1>
+  <h1>SCOPE <span>+</span> HOISTING <span>+</span> CLOSURE </h1>
   <h2>Bienvenidos a BarScript</h2>
   
   <div className="card">
